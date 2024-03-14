@@ -1,0 +1,53 @@
+---
+kind: pkgfile.Build
+spec:
+  targets:
+    - overlays
+  makefile:
+    extraVariables:
+      - name: OVERLAYS_IMAGE_REF
+        defaultValue: $(REGISTRY_AND_USERNAME)/overlays:$(TAG)
+---
+kind: common.Build
+spec:
+    ignoredPaths:
+        - "internal/overlays/overlays-generated.yaml"
+---
+kind: auto.CustomSteps
+spec:
+  steps:
+    - name: internal/overlays/overlays-generated.yaml
+      toplevel: true
+    - name: overlays
+      toplevel: true
+    - name: sign-images
+      toplevel: true
+---
+kind: custom.Step
+name: internal/overlays/overlays-generated.yaml
+spec:
+  makefile:
+    enabled: true
+    phony: true
+    script:
+      - "@./hack/scripts/generate-digests.sh"
+---
+kind: custom.Step
+name: overlays
+spec:
+  makefile:
+    enabled: true
+    phony: true
+    depends:
+      - internal/overlays/overlays-generated.yaml
+---
+kind: custom.Step
+name: sign-images
+spec:
+  makefile:
+    enabled: true
+    phony: true
+    script:
+      - |
+        @OVERLAYS_IMAGE_REF=$(OVERLAYS_IMAGE_REF) \
+          ./hack/scripts/sign-images.sh

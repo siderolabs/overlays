@@ -1,0 +1,6 @@
+# this is a meta-package that contains a list of overlays
+name: overlays
+variant: scratch
+finalize:
+  - from: /pkg/overlays-generated.yaml
+    to: /overlays.yaml

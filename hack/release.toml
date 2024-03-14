@@ -1,0 +1,19 @@
+# commit to be tagged for the new release
+commit = "HEAD"
+
+project_name = "overlays"
+github_repo = "siderolabs/overlays"
+match_deps = "^github.com/(siderolabs/[a-zA-Z0-9-]+)$"
+
+# previous = -
+# pre_release = true
+
+[notes]
+  [notes.sbc]
+    title = "SBC support"
+    description = """\
+Initial support for the following overlays:
+
+* [Raspberry Pi](https://github.com/siderolabs/sbc-raspberrypi/)
+* [RockPi](https://github.com/siderolabs/sbc-rockpi/)
+"""
