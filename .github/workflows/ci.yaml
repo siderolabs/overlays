@@ -1,0 +1,39 @@
+name: default
+concurrency:
+  group: ${{ github.head_ref || github.run_id }}
+  cancel-in-progress: true
+"on":
+  push:
+    branches:
+      - main
+      - release-*
+    tags:
+      - v*
+  pull_request:
+    branches:
+      - main
+      - release-*
+jobs:
+  default:
+    permissions:
+      actions: read
+      contents: write
+      issues: read
+      packages: write
+      pull-requests: read
+    runs-on:
+      - self-hosted
+      - pkgs
+    if: (!startsWith(github.head_ref, 'renovate/') && !startsWith(github.head_ref, 'dependabot/'))
+    services:
+      buildkitd:
+        image: moby/buildkit:v0.12.5
+        options: --privileged
+        ports:
+          - 1234:1234
+        volumes:
+          - /var/lib/buildkit/${{ github.repository }}:/var/lib/buildkit
+          - /usr/etc/buildkit/buildkitd.toml:/etc/buildkit/buildkitd.toml
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
