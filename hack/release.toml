@@ -6,7 +6,7 @@ github_repo = "siderolabs/overlays"
 match_deps = "^github.com/(siderolabs/[a-zA-Z0-9-]+)$"
 
 # previous = -
-# pre_release = true
+pre_release = true
 
 [notes]
   [notes.sbc]
@@ -15,5 +15,7 @@ match_deps = "^github.com/(siderolabs/[a-zA-Z0-9-]+)$"
 Initial support for the following overlays:
 
 * [Raspberry Pi](https://github.com/siderolabs/sbc-raspberrypi/)
-* [RockPi](https://github.com/siderolabs/sbc-rockpi/)
+* [RockChip](https://github.com/siderolabs/sbc-rockchip/)
+* [Jetson](https://github.com/siderolabs/sbc-jetson/)
+* [Allwinner](https://github.com/siderolabs/sbc-allwinner/)
 """
