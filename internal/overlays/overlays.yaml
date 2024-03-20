@@ -5,6 +5,8 @@ overlays:
     image: ghcr.io/siderolabs/sbc-rockchip:v0.1.0-alpha.2
   - name: rockpi4c
     image: ghcr.io/siderolabs/sbc-rockchip:v0.1.0-alpha.2
+  - name: rock4cplus
+    image: ghcr.io/siderolabs/sbc-rockchip:v0.1.0-alpha.2-2-g01a3ef7
   - name: nanopi-r4s
     image: ghcr.io/siderolabs/sbc-rockchip:v0.1.0-alpha.2
   - name: rock64
