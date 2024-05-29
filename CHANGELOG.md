@@ -1,3 +1,38 @@
+## [overlays 1.7.3](https://github.com/siderolabs/overlays/releases/tag/v1.7.3) (2024-05-29)
+
+Welcome to the v1.7.3 release of overlays!
+
+
+
+Please try out the release binaries and report any issues at
+https://github.com/siderolabs/overlays/issues.
+
+### SBC support
+
+Initial support for the following overlays:
+
+* [Raspberry Pi](https://github.com/siderolabs/sbc-raspberrypi/)
+* [RockChip](https://github.com/siderolabs/sbc-rockchip/)
+* [Jetson](https://github.com/siderolabs/sbc-jetson/)
+* [Allwinner](https://github.com/siderolabs/sbc-allwinner/)
+
+
+### Contributors
+
+
+### Changes
+<details><summary>0 commit</summary>
+<p>
+
+</p>
+</details>
+
+### Dependency Changes
+
+This release has no dependency changes
+
+Previous release can be found at [v1.7.2](https://github.com/siderolabs/overlays/releases/tag/v1.7.2)
+
 ## [overlays 1.7.2](https://github.com/siderolabs/overlays/releases/tag/v1.7.2) (2024-05-17)
 
 Welcome to the v1.7.2 release of overlays!
