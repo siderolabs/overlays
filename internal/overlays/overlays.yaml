@@ -1,18 +1,20 @@
 overlays:
   - name: rpi_generic
-    image: ghcr.io/siderolabs/sbc-raspberrypi:v0.1.0-beta.0
+    image: ghcr.io/siderolabs/sbc-raspberrypi:v0.1.0-beta.1
   - name: rockpi4
-    image: ghcr.io/siderolabs/sbc-rockchip:v0.1.0-beta.1
+    image: ghcr.io/siderolabs/sbc-rockchip:v0.1.0-beta.2
   - name: rockpi4c
-    image: ghcr.io/siderolabs/sbc-rockchip:v0.1.0-beta.1
+    image: ghcr.io/siderolabs/sbc-rockchip:v0.1.0-beta.2
   - name: rock4cplus
-    image: ghcr.io/siderolabs/sbc-rockchip:v0.1.0-beta.1
+    image: ghcr.io/siderolabs/sbc-rockchip:v0.1.0-beta.2
+  - name: rock4se
+    image: ghcr.io/siderolabs/sbc-rockchip:v0.1.0-beta.2
   - name: nanopi-r4s
-    image: ghcr.io/siderolabs/sbc-rockchip:v0.1.0-beta.1
+    image: ghcr.io/siderolabs/sbc-rockchip:v0.1.0-beta.2
   - name: rock64
-    image: ghcr.io/siderolabs/sbc-rockchip:v0.1.0-beta.1
+    image: ghcr.io/siderolabs/sbc-rockchip:v0.1.0-beta.2
   - name: orangepi-r1-plus-lts
-    image: ghcr.io/siderolabs/sbc-rockchip:v0.1.0-beta.1
+    image: ghcr.io/siderolabs/sbc-rockchip:v0.1.0-beta.2
   - name: jetson_nano
     image: ghcr.io/siderolabs/sbc-jetson:v0.1.0-beta.0
   - name: bananapi_m64

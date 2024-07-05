@@ -12,10 +12,8 @@ pre_release = true
   [notes.sbc]
     title = "SBC support"
     description = """\
-Initial support for the following overlays:
+Updates for the following overlays:
 
 * [Raspberry Pi](https://github.com/siderolabs/sbc-raspberrypi/)
 * [RockChip](https://github.com/siderolabs/sbc-rockchip/)
-* [Jetson](https://github.com/siderolabs/sbc-jetson/)
-* [Allwinner](https://github.com/siderolabs/sbc-allwinner/)
 """
