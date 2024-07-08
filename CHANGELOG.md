@@ -1,3 +1,50 @@
+## [overlays 1.8.0-alpha.1](https://github.com/siderolabs/overlays/releases/tag/v1.8.0-alpha.1) (2024-07-08)
+
+Welcome to the v1.8.0-alpha.1 release of overlays!  
+*This is a pre-release of overlays*
+
+
+
+Please try out the release binaries and report any issues at
+https://github.com/siderolabs/overlays/issues.
+
+### SBC support
+
+Updates for the following overlays:
+
+* [Raspberry Pi](https://github.com/siderolabs/sbc-raspberrypi/)
+* [RockChip](https://github.com/siderolabs/sbc-rockchip/)
+
+
+### Contributors
+
+* Andrey Smirnov
+
+### Changes
+<details><summary>4 commits</summary>
+<p>
+
+* [`6992852`](https://github.com/siderolabs/overlays/commit/6992852bb8b5633fed594bda0b366b524ac551e3) feat: bump overlays rockchip & raspberrypi
+* [`1a3848b`](https://github.com/siderolabs/overlays/commit/1a3848be2d0b6908d6f86019f4d20993145f0788) release(v1.8.0-alpha.0): prepare release
+* [`37c0575`](https://github.com/siderolabs/overlays/commit/37c057526a1c3cab8cce067fb767c68711f219d5) feat: update sbc-rockchip to v0.1.0-beta.1
+* [`c2bec3b`](https://github.com/siderolabs/overlays/commit/c2bec3b4a33c7a0b8eef628f6cfa47b5c0779329) release(v1.7.0-beta.0): prepare release
+</p>
+</details>
+
+### Changes since v1.8.0-alpha.0
+<details><summary>1 commit</summary>
+<p>
+
+* [`6992852`](https://github.com/siderolabs/overlays/commit/6992852bb8b5633fed594bda0b366b524ac551e3) feat: bump overlays rockchip & raspberrypi
+</p>
+</details>
+
+### Dependency Changes
+
+This release has no dependency changes
+
+Previous release can be found at [v1.7.0](https://github.com/siderolabs/overlays/releases/tag/v1.7.0)
+
 ## [overlays 1.8.0-alpha.0](https://github.com/siderolabs/overlays/releases/tag/v1.8.0-alpha.0) (2024-05-01)
 
 Welcome to the v1.8.0-alpha.0 release of overlays!  
