@@ -5,15 +5,7 @@ project_name = "overlays"
 github_repo = "siderolabs/overlays"
 match_deps = "^github.com/(siderolabs/[a-zA-Z0-9-]+)$"
 
-previous = "v1.7.0"
+previous = "v1.8.0"
 pre_release = true
 
 [notes]
-  [notes.sbc]
-    title = "SBC support"
-    description = """\
-Updates for the following overlays:
-
-* [Raspberry Pi](https://github.com/siderolabs/sbc-raspberrypi/)
-* [RockChip](https://github.com/siderolabs/sbc-rockchip/)
-"""
