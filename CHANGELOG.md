@@ -1,3 +1,41 @@
+## [overlays 1.9.0-beta.0](https://github.com/siderolabs/overlays/releases/tag/v1.9.0-beta.0) (2024-12-02)
+
+Welcome to the v1.9.0-beta.0 release of overlays!  
+*This is a pre-release of overlays*
+
+
+
+Please try out the release binaries and report any issues at
+https://github.com/siderolabs/overlays/issues.
+
+### Contributors
+
+* Andrey Smirnov
+
+### Changes
+<details><summary>4 commits</summary>
+<p>
+
+* [`9ead53e`](https://github.com/siderolabs/overlays/commit/9ead53ebae7a8b55dc4ddd4dfc9c14a9009b3767) release(v1.9.0-alpha.3): prepare release
+* [`40f6d31`](https://github.com/siderolabs/overlays/commit/40f6d312a139b5d42b1f13e3aa9bf3fe755d769b) release(v1.9.0-alpha.2): prepare release
+* [`d057232`](https://github.com/siderolabs/overlays/commit/d057232a82f123f361ef11f1c92247bc63f5b501) release(v1.9.0-alpha.1): prepare release
+* [`aa6bbfc`](https://github.com/siderolabs/overlays/commit/aa6bbfc0aba2517c4ee5d519cfdb4f4f1e409d76) release(v1.9.0-alpha.0): prepare release
+</p>
+</details>
+
+### Changes since v1.9.0-alpha.3
+<details><summary>0 commit</summary>
+<p>
+
+</p>
+</details>
+
+### Dependency Changes
+
+This release has no dependency changes
+
+Previous release can be found at [v1.8.0](https://github.com/siderolabs/overlays/releases/tag/v1.8.0)
+
 ## [overlays 1.9.0-alpha.3](https://github.com/siderolabs/overlays/releases/tag/v1.9.0-alpha.3) (2024-11-25)
 
 Welcome to the v1.9.0-alpha.3 release of overlays!  
