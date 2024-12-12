@@ -5,7 +5,7 @@ project_name = "overlays"
 github_repo = "siderolabs/overlays"
 match_deps = "^github.com/(siderolabs/[a-zA-Z0-9-]+)$"
 
-previous = "v1.8.2"
+previous = "v1.8.3"
 pre_release = false
 
 [notes]
