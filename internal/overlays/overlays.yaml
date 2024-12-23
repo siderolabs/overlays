@@ -1,6 +1,6 @@
 overlays:
   - name: rpi_generic
-    image: ghcr.io/siderolabs/sbc-raspberrypi:v0.1.0
+    image: ghcr.io/siderolabs/sbc-raspberrypi:v0.1.1
   - name: rockpi4
     image: ghcr.io/siderolabs/sbc-rockchip:v0.1.1
   - name: rockpi4c
