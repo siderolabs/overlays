@@ -1,3 +1,32 @@
+## [overlays 1.10.0-alpha.0](https://github.com/siderolabs/overlays/releases/tag/v1.10.0-alpha.0) (2024-12-23)
+
+Welcome to the v1.10.0-alpha.0 release of overlays!  
+*This is a pre-release of overlays*
+
+
+
+Please try out the release binaries and report any issues at
+https://github.com/siderolabs/overlays/issues.
+
+### Contributors
+
+* Andrey Smirnov
+
+### Changes
+<details><summary>2 commits</summary>
+<p>
+
+* [`33050d3`](https://github.com/siderolabs/overlays/commit/33050d303f76cbe3d19342e51238cf7f88b3e962) feat: update sbc-raspberrypi to v0.1.1
+* [`274a083`](https://github.com/siderolabs/overlays/commit/274a083215c43e60a3d39c6620682c09875b2691) feat: update sbc-rockchip to v0.1.1
+</p>
+</details>
+
+### Dependency Changes
+
+This release has no dependency changes
+
+Previous release can be found at [v1.9.0](https://github.com/siderolabs/overlays/releases/tag/v1.9.0)
+
 ## [overlays 1.9.0-alpha.3](https://github.com/siderolabs/overlays/releases/tag/v1.9.0-alpha.3) (2024-11-25)
 
 Welcome to the v1.9.0-alpha.3 release of overlays!  
