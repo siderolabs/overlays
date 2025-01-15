@@ -41,6 +41,7 @@ The list of available overlays can be found in the [Overlays Catalog](#overlays-
 | rock4se                | Radxa ROCK 4SE                  | [sbc-rockchip](https://github.com/siderolabs/sbc-rockchip)       |
 | helios64               | Kobol Helios64                  | [sbc-rockchip](https://github.com/siderolabs/sbc-rockchip)       |
 | turingrk1              | Turing Machines RK1             | [sbc-rockchip](https://github.com/siderolabs/sbc-rockchip)       |
+| rock5b                 | Radxa ROCK 5B                   | [sbc-rockchip](https://github.com/siderolabs/sbc-rockchip)       |
 | jetson_nano            | Jetson Nano                     | [sbc-jetson](https://github.com/siderolabs/sbc-jetson)           |
 | bananapi_m64           | BananaPi M64                    | [sbc-allwinner](https://github.com/siderolabs/sbc-allwinner)     |
 | libretech_all_h3_cc_h5 | LibreTech H3 CC H5              | [sbc-allwinner](https://github.com/siderolabs/sbc-allwinner)     |
