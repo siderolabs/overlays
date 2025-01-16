@@ -1,3 +1,30 @@
+## [overlays 1.9.2](https://github.com/siderolabs/overlays/releases/tag/v1.9.2) (2025-01-16)
+
+Welcome to the v1.9.2 release of overlays!
+
+
+
+Please try out the release binaries and report any issues at
+https://github.com/siderolabs/overlays/issues.
+
+### Contributors
+
+* Noel Georgi
+
+### Changes
+<details><summary>1 commit</summary>
+<p>
+
+* [`5f7e695`](https://github.com/siderolabs/overlays/commit/5f7e695ad3426aa9bd972389180d69415c988048) feat: add radxa rock5b overlay
+</p>
+</details>
+
+### Dependency Changes
+
+This release has no dependency changes
+
+Previous release can be found at [v1.9.1](https://github.com/siderolabs/overlays/releases/tag/v1.9.1)
+
 ## [overlays 1.9.1](https://github.com/siderolabs/overlays/releases/tag/v1.9.1) (2024-12-26)
 
 Welcome to the v1.9.1 release of overlays!
