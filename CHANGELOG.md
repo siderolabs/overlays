@@ -1,3 +1,32 @@
+## [overlays 1.9.3](https://github.com/siderolabs/overlays/releases/tag/v1.9.3) (2025-01-28)
+
+Welcome to the v1.9.3 release of overlays!
+
+
+
+Please try out the release binaries and report any issues at
+https://github.com/siderolabs/overlays/issues.
+
+### Contributors
+
+* Andrey Smirnov
+
+### Changes
+<details><summary>3 commits</summary>
+<p>
+
+* [`13647cd`](https://github.com/siderolabs/overlays/commit/13647cd6a7717fede61e07b70b1a628cc5ced2d8) feat: bump raspberrypi to 0.1.2
+* [`0000128`](https://github.com/siderolabs/overlays/commit/000012820811ccce5ee7a545e4ce6e0750eb8098) feat: update rockpi to 0.1.3
+* [`96cb87c`](https://github.com/siderolabs/overlays/commit/96cb87cb5c4fb7a072b51065ec190bb14e537931) chore: disable max of one commit
+</p>
+</details>
+
+### Dependency Changes
+
+This release has no dependency changes
+
+Previous release can be found at [v1.9.2](https://github.com/siderolabs/overlays/releases/tag/v1.9.2)
+
 ## [overlays 1.9.2](https://github.com/siderolabs/overlays/releases/tag/v1.9.2) (2025-01-16)
 
 Welcome to the v1.9.2 release of overlays!
