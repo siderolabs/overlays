@@ -51,3 +51,7 @@ spec:
       - |
         @OVERLAYS_IMAGE_REF=$(OVERLAYS_IMAGE_REF) \
           ./hack/scripts/sign-images.sh
+---
+kind: common.Repository
+spec:
+  conformMaximumOfOneCommit: false
