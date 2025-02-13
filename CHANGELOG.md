@@ -1,3 +1,30 @@
+## [overlays 1.9.4](https://github.com/siderolabs/overlays/releases/tag/v1.9.4) (2025-02-13)
+
+Welcome to the v1.9.4 release of overlays!
+
+
+
+Please try out the release binaries and report any issues at
+https://github.com/siderolabs/overlays/issues.
+
+### Contributors
+
+* Andrey Smirnov
+
+### Changes
+<details><summary>1 commit</summary>
+<p>
+
+* [`304e370`](https://github.com/siderolabs/overlays/commit/304e37028a30fdcbd34aad2d14c0263ab0c53957) feat: update sbc-raspberrypi to v0.1.3
+</p>
+</details>
+
+### Dependency Changes
+
+This release has no dependency changes
+
+Previous release can be found at [v1.9.3](https://github.com/siderolabs/overlays/releases/tag/v1.9.3)
+
 ## [overlays 1.9.3](https://github.com/siderolabs/overlays/releases/tag/v1.9.3) (2025-01-28)
 
 Welcome to the v1.9.3 release of overlays!
