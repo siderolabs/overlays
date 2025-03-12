@@ -1,3 +1,30 @@
+## [overlays 1.9.5](https://github.com/siderolabs/overlays/releases/tag/v1.9.5) (2025-03-12)
+
+Welcome to the v1.9.5 release of overlays!
+
+
+
+Please try out the release binaries and report any issues at
+https://github.com/siderolabs/overlays/issues.
+
+### Contributors
+
+* Andrey Smirnov
+
+### Changes
+<details><summary>1 commit</summary>
+<p>
+
+* [`c3a6d93`](https://github.com/siderolabs/overlays/commit/c3a6d931029859bafc0e5b112850830edb3c10d6) release(v1.9.4): prepare release
+</p>
+</details>
+
+### Dependency Changes
+
+This release has no dependency changes
+
+Previous release can be found at [v1.9.4](https://github.com/siderolabs/overlays/releases/tag/v1.9.4)
+
 ## [overlays 1.9.4](https://github.com/siderolabs/overlays/releases/tag/v1.9.4) (2025-02-13)
 
 Welcome to the v1.9.4 release of overlays!
