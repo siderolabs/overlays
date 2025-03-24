@@ -1,3 +1,49 @@
+## [overlays 1.10.0-alpha.3](https://github.com/siderolabs/overlays/releases/tag/v1.10.0-alpha.3) (2025-03-24)
+
+Welcome to the v1.10.0-alpha.3 release of overlays!  
+*This is a pre-release of overlays*
+
+
+
+Please try out the release binaries and report any issues at
+https://github.com/siderolabs/overlays/issues.
+
+### Contributors
+
+* Andrey Smirnov
+* Noel Georgi
+
+### Changes
+<details><summary>10 commits</summary>
+<p>
+
+* [`668b65e`](https://github.com/siderolabs/overlays/commit/668b65e3b4467386c8c34a4d139dc780fd7c80a2) chore: unify buildkits
+* [`a2e2bfe`](https://github.com/siderolabs/overlays/commit/a2e2bfe1c532af6dbbae414585e50af28eaf3b9b) release(v1.10.0-alpha.2): prepare release
+* [`f657517`](https://github.com/siderolabs/overlays/commit/f657517ce9c5bc7b3a2cf9b11352d87c3a994f83) feat: update sbc-raspberrypi to v0.1.3
+* [`9a04f39`](https://github.com/siderolabs/overlays/commit/9a04f391bf707ab94608736ac526fc24f478249b) release(v1.10.0-alpha.1): prepare release
+* [`da6ab61`](https://github.com/siderolabs/overlays/commit/da6ab6160b278ab9c20215765a7c92e32e432f9a) feat: bump raspberrypi to 0.1.2
+* [`0195af3`](https://github.com/siderolabs/overlays/commit/0195af325416be3a701ac9ac30a9ba47a25f49f7) feat: update rockpi to 0.1.3
+* [`833e595`](https://github.com/siderolabs/overlays/commit/833e595ef2b19758a4f63f9dfb3707b0285a85e8) feat: add radxa rock5b overlay
+* [`76c08bb`](https://github.com/siderolabs/overlays/commit/76c08bbea1c36b9f8f8f3997c282acd95529c575) release(v1.10.0-alpha.0): prepare release
+* [`33050d3`](https://github.com/siderolabs/overlays/commit/33050d303f76cbe3d19342e51238cf7f88b3e962) feat: update sbc-raspberrypi to v0.1.1
+* [`274a083`](https://github.com/siderolabs/overlays/commit/274a083215c43e60a3d39c6620682c09875b2691) feat: update sbc-rockchip to v0.1.1
+</p>
+</details>
+
+### Changes since v1.10.0-alpha.2
+<details><summary>1 commit</summary>
+<p>
+
+* [`668b65e`](https://github.com/siderolabs/overlays/commit/668b65e3b4467386c8c34a4d139dc780fd7c80a2) chore: unify buildkits
+</p>
+</details>
+
+### Dependency Changes
+
+This release has no dependency changes
+
+Previous release can be found at [v1.9.0](https://github.com/siderolabs/overlays/releases/tag/v1.9.0)
+
 ## [overlays 1.10.0-alpha.2](https://github.com/siderolabs/overlays/releases/tag/v1.10.0-alpha.2) (2025-03-05)
 
 Welcome to the v1.10.0-alpha.2 release of overlays!  
