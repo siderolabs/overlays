@@ -32,15 +32,20 @@ The list of available overlays can be found in the [Overlays Catalog](#overlays-
 | Overlay Name           | Board                           | Repository                                                       |
 | ---------------------- | ------------------------------- | ---------------------------------------------------------------- |
 | rpi_generic            | Raspberry Pi 4/Compute Module 4 | [sbc-raspberrypi](https://github.com/siderolabs/sbc-raspberrypi) |
+| revpi_generic          | Revolution Pi                   | [sbc-raspberrypi](https://github.com/siderolabs/sbc-raspberrypi) |
 | nanopi-r4s             | NanoPi R4S                      | [sbc-rockchip](https://github.com/siderolabs/sbc-rockchip)       |
 | nanopi-r5s             | NanoPi R5S                      | [sbc-rockchip](https://github.com/siderolabs/sbc-rockchip)       |
 | rock64                 | Pine64 Rock64                   | [sbc-rockchip](https://github.com/siderolabs/sbc-rockchip)       |
+| rockpro64              | Pine64 RockPro64                | [sbc-rockchip](https://github.com/siderolabs/sbc-rockchip)       |
+| orangepi-5             | OrnagePi 5                      | [sbc-rockchip](https://github.com/siderolabs/sbc-rockchip)       |
+| orangepi-5-plus        | OrnagePi 5 Plus                 | [sbc-rockchip](https://github.com/siderolabs/sbc-rockchip)       |
 | rockpi4                | Rock Pi 4A,Rock Pi 4B           | [sbc-rockchip](https://github.com/siderolabs/sbc-rockchip)       |
 | rockpi4c               | Rock Pi 4C                      | [sbc-rockchip](https://github.com/siderolabs/sbc-rockchip)       |
 | rock4cplus             | Radxa ROCK 4C+                  | [sbc-rockchip](https://github.com/siderolabs/sbc-rockchip)       |
 | rock4se                | Radxa ROCK 4SE                  | [sbc-rockchip](https://github.com/siderolabs/sbc-rockchip)       |
 | helios64               | Kobol Helios64                  | [sbc-rockchip](https://github.com/siderolabs/sbc-rockchip)       |
 | turingrk1              | Turing Machines RK1             | [sbc-rockchip](https://github.com/siderolabs/sbc-rockchip)       |
+| rock5a                 | Radxa ROCK 5a                   | [sbc-rockchip](https://github.com/siderolabs/sbc-rockchip)       |
 | rock5b                 | Radxa ROCK 5B                   | [sbc-rockchip](https://github.com/siderolabs/sbc-rockchip)       |
 | jetson_nano            | Jetson Nano                     | [sbc-jetson](https://github.com/siderolabs/sbc-jetson)           |
 | bananapi_m64           | BananaPi M64                    | [sbc-allwinner](https://github.com/siderolabs/sbc-allwinner)     |
