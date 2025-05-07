@@ -1,3 +1,30 @@
+## [overlays 1.10.1](https://github.com/siderolabs/overlays/releases/tag/v1.10.1) (2025-05-07)
+
+Welcome to the v1.10.1 release of overlays!
+
+
+
+Please try out the release binaries and report any issues at
+https://github.com/siderolabs/overlays/issues.
+
+### Contributors
+
+* Noel Georgi
+
+### Changes
+<details><summary>1 commit</summary>
+<p>
+
+* [`6494d62`](https://github.com/siderolabs/overlays/commit/6494d6218a66f6e2b320c394a0aa553449d10c23) fix: use overlay versions with grub bootloader
+</p>
+</details>
+
+### Dependency Changes
+
+This release has no dependency changes
+
+Previous release can be found at [v1.10.0](https://github.com/siderolabs/overlays/releases/tag/v1.10.0)
+
 ## [overlays 1.10.0](https://github.com/siderolabs/overlays/releases/tag/v1.10.0) (2025-04-30)
 
 Welcome to the v1.10.0 release of overlays!
