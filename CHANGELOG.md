@@ -1,3 +1,41 @@
+## [overlays 1.11.0-alpha.1](https://github.com/siderolabs/overlays/releases/tag/v1.11.0-alpha.1) (2025-06-05)
+
+Welcome to the v1.11.0-alpha.1 release of overlays!  
+*This is a pre-release of overlays*
+
+
+
+Please try out the release binaries and report any issues at
+https://github.com/siderolabs/overlays/issues.
+
+### Contributors
+
+* Andrey Smirnov
+* Noel Georgi
+
+### Changes
+<details><summary>2 commits</summary>
+<p>
+
+* [`9c44926`](https://github.com/siderolabs/overlays/commit/9c4492694aa01aa0422f3191004827c17dcf3b11) fix: use overlay versions with grub bootloader
+* [`cc24675`](https://github.com/siderolabs/overlays/commit/cc246758e303b32fab1a3b45c6e0e17cb99e550d) release(v1.11.0-alpha.0): prepare release
+</p>
+</details>
+
+### Changes since v1.11.0-alpha.0
+<details><summary>1 commit</summary>
+<p>
+
+* [`9c44926`](https://github.com/siderolabs/overlays/commit/9c4492694aa01aa0422f3191004827c17dcf3b11) fix: use overlay versions with grub bootloader
+</p>
+</details>
+
+### Dependency Changes
+
+This release has no dependency changes
+
+Previous release can be found at [v1.10.0](https://github.com/siderolabs/overlays/releases/tag/v1.10.0)
+
 ## [overlays 1.11.0-alpha.0](https://github.com/siderolabs/overlays/releases/tag/v1.11.0-alpha.0) (2025-05-01)
 
 Welcome to the v1.11.0-alpha.0 release of overlays!  
