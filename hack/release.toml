@@ -9,3 +9,12 @@ previous = "v1.11.0"
 pre_release = true
 
 [notes]
+    [rockchip]
+        title = "Rockchip SBCS"
+	description = """\
+New RockChip SBC's have been added:
+
+* odroid-m1
+* radxa-zero-3e
+* rock3b
+"""

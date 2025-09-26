@@ -1,43 +1,49 @@
 overlays:
-  - name: rpi_generic
-    image: ghcr.io/siderolabs/sbc-raspberrypi:v0.1.5
-  - name: revpi_generic
-    image: ghcr.io/siderolabs/sbc-raspberrypi:v0.1.5
-  - name: rockpi4
-    image: ghcr.io/siderolabs/sbc-rockchip:v0.1.5
-  - name: rockpi4c
-    image: ghcr.io/siderolabs/sbc-rockchip:v0.1.5
-  - name: rock4cplus
-    image: ghcr.io/siderolabs/sbc-rockchip:v0.1.5
-  - name: rock4se
-    image: ghcr.io/siderolabs/sbc-rockchip:v0.1.5
-  - name: nanopi-r4s
-    image: ghcr.io/siderolabs/sbc-rockchip:v0.1.5
-  - name: nanopi-r5s
-    image: ghcr.io/siderolabs/sbc-rockchip:v0.1.5
-  - name: rock64
-    image: ghcr.io/siderolabs/sbc-rockchip:v0.1.5
-  - name: rockpro64
-    image: ghcr.io/siderolabs/sbc-rockchip:v0.1.5
-  - name: orangepi-5
-    image: ghcr.io/siderolabs/sbc-rockchip:v0.1.5
-  - name: orangepi-5-plus
-    image: ghcr.io/siderolabs/sbc-rockchip:v0.1.5
-  - name: orangepi-r1-plus-lts
-    image: ghcr.io/siderolabs/sbc-rockchip:v0.1.5
-  - name: helios64
-    image: ghcr.io/siderolabs/sbc-rockchip:v0.1.5
-  - name: turingrk1
-    image: ghcr.io/siderolabs/sbc-rockchip:v0.1.5
-  - name: rock5a
-    image: ghcr.io/siderolabs/sbc-rockchip:v0.1.5
-  - name: rock5b
-    image: ghcr.io/siderolabs/sbc-rockchip:v0.1.5
-  - name: jetson_nano
-    image: ghcr.io/siderolabs/sbc-jetson:v0.1.2
   - name: bananapi_m64
     image: ghcr.io/siderolabs/sbc-allwinner:v0.1.2
   - name: libretech_all_h3_cc_h5
     image: ghcr.io/siderolabs/sbc-allwinner:v0.1.2
   - name: pine64
     image: ghcr.io/siderolabs/sbc-allwinner:v0.1.2
+  - name: jetson_nano
+    image: ghcr.io/siderolabs/sbc-jetson:v0.1.2
+  - name: revpi_generic
+    image: ghcr.io/siderolabs/sbc-raspberrypi:v0.1.5
+  - name: rpi_generic
+    image: ghcr.io/siderolabs/sbc-raspberrypi:v0.1.5
+  - name: helios64
+    image: ghcr.io/siderolabs/sbc-rockchip:v0.1.6
+  - name: nanopi-r4s
+    image: ghcr.io/siderolabs/sbc-rockchip:v0.1.6
+  - name: nanopi-r5s
+    image: ghcr.io/siderolabs/sbc-rockchip:v0.1.6
+  - name: odroid-m1
+    image: ghcr.io/siderolabs/sbc-rockchip:v0.1.6
+  - name: orangepi-5
+    image: ghcr.io/siderolabs/sbc-rockchip:v0.1.6
+  - name: orangepi-5-plus
+    image: ghcr.io/siderolabs/sbc-rockchip:v0.1.6
+  - name: orangepi-r1-plus-lts
+    image: ghcr.io/siderolabs/sbc-rockchip:v0.1.6
+  - name: radxa-zero-3e
+    image: ghcr.io/siderolabs/sbc-rockchip:v0.1.6
+  - name: rock3b
+    image: ghcr.io/siderolabs/sbc-rockchip:v0.1.6
+  - name: rock4cplus
+    image: ghcr.io/siderolabs/sbc-rockchip:v0.1.6
+  - name: rock4se
+    image: ghcr.io/siderolabs/sbc-rockchip:v0.1.6
+  - name: rock5a
+    image: ghcr.io/siderolabs/sbc-rockchip:v0.1.6
+  - name: rock5b
+    image: ghcr.io/siderolabs/sbc-rockchip:v0.1.6
+  - name: rock64
+    image: ghcr.io/siderolabs/sbc-rockchip:v0.1.6
+  - name: rockpi4
+    image: ghcr.io/siderolabs/sbc-rockchip:v0.1.6
+  - name: rockpi4c
+    image: ghcr.io/siderolabs/sbc-rockchip:v0.1.6
+  - name: rockpro64
+    image: ghcr.io/siderolabs/sbc-rockchip:v0.1.6
+  - name: turingrk1
+    image: ghcr.io/siderolabs/sbc-rockchip:v0.1.6
