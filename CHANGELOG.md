@@ -1,3 +1,41 @@
+## [overlays 1.12.0-alpha.1](https://github.com/siderolabs/overlays/releases/tag/v1.12.0-alpha.1) (2025-10-01)
+
+Welcome to the v1.12.0-alpha.1 release of overlays!  
+*This is a pre-release of overlays*
+
+
+
+Please try out the release binaries and report any issues at
+https://github.com/siderolabs/overlays/issues.
+
+### Contributors
+
+* Andrey Smirnov
+* Noel Georgi
+
+### Changes
+<details><summary>2 commits</summary>
+<p>
+
+* [`a58cc39`](https://github.com/siderolabs/overlays/commit/a58cc3981a05c2f632530e70d33a9e1987310bbb) feat: add new rockchip sbcs
+* [`abe467b`](https://github.com/siderolabs/overlays/commit/abe467bbc530575d625a27d74c6c5bb0de362b92) release(v1.12.0-alpha.0): prepare release
+</p>
+</details>
+
+### Changes since v1.12.0-alpha.0
+<details><summary>1 commit</summary>
+<p>
+
+* [`a58cc39`](https://github.com/siderolabs/overlays/commit/a58cc3981a05c2f632530e70d33a9e1987310bbb) feat: add new rockchip sbcs
+</p>
+</details>
+
+### Dependency Changes
+
+This release has no dependency changes
+
+Previous release can be found at [v1.11.0](https://github.com/siderolabs/overlays/releases/tag/v1.11.0)
+
 ## [overlays 1.12.0-alpha.0](https://github.com/siderolabs/overlays/releases/tag/v1.12.0-alpha.0) (2025-09-02)
 
 Welcome to the v1.12.0-alpha.0 release of overlays!  
