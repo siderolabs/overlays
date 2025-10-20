@@ -1,6 +1,6 @@
 # THIS FILE WAS AUTOMATICALLY GENERATED, PLEASE DO NOT EDIT.
 #
-# Generated on 2025-09-25T12:21:43Z by kres fdbc9fc.
+# Generated on 2025-11-05T10:30:35Z by kres cd5a938.
 
 # common variables
 
@@ -46,6 +46,7 @@ COMMON_ARGS += $(BUILD_ARGS)
 # extra variables
 
 OVERLAYS_IMAGE_REF ?= $(REGISTRY_AND_USERNAME)/overlays:$(TAG)
+IMAGE_SIGNER_IMAGE ?= ghcr.io/siderolabs/image-signer:latest
 
 # targets defines all the available targets
 
@@ -153,8 +154,9 @@ overlays: internal/overlays/overlays-generated.yaml
 
 .PHONY: sign-images
 sign-images:
-	@OVERLAYS_IMAGE_REF=$(OVERLAYS_IMAGE_REF) \
-	  ./hack/scripts/sign-images.sh
+	@docker run --pull=always --rm --net=host $(IMAGE_SIGNER_IMAGE) sign \
+	  $(shell crane export $(OVERLAYS_IMAGE_REF) | tar x --to-stdout overlays.yaml | yq '.overlays | unique_by(.image) | .[] | .image + "@" + .digest') \
+	  $(OVERLAYS_IMAGE_REF)@$$(crane digest $(OVERLAYS_IMAGE_REF))
 
 .PHONY: rekres
 rekres:
