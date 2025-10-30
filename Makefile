@@ -1,6 +1,6 @@
 # THIS FILE WAS AUTOMATICALLY GENERATED, PLEASE DO NOT EDIT.
 #
-# Generated on 2025-11-05T10:30:35Z by kres cd5a938.
+# Generated on 2025-10-30T03:43:47Z by kres cd5a938.
 
 # common variables
 
@@ -46,7 +46,7 @@ COMMON_ARGS += $(BUILD_ARGS)
 # extra variables
 
 OVERLAYS_IMAGE_REF ?= $(REGISTRY_AND_USERNAME)/overlays:$(TAG)
-IMAGE_SIGNER_IMAGE ?= ghcr.io/siderolabs/image-signer:latest
+IMAGE_SIGNER_RELEASE ?= v0.1.1
 
 # targets defines all the available targets
 
@@ -152,9 +152,14 @@ internal/overlays/overlays-generated.yaml:
 .PHONY: overlays
 overlays: internal/overlays/overlays-generated.yaml
 
+.PHONY: $(ARTIFACTS)/image-signer
+$(ARTIFACTS)/image-signer:
+	@curl -sSL https://github.com/siderolabs/go-tools/releases/download/$(IMAGE_SIGNER_RELEASE)/image-signer-$(OPERATING_SYSTEM)-$(GOARCH) -o $(ARTIFACTS)/image-signer
+	@chmod +x $(ARTIFACTS)/image-signer
+
 .PHONY: sign-images
-sign-images:
-	@docker run --pull=always --rm --net=host $(IMAGE_SIGNER_IMAGE) sign \
+sign-images: $(ARTIFACTS)/image-signer
+	@$(ARTIFACTS)/image-signer sign \
 	  $(shell crane export $(OVERLAYS_IMAGE_REF) | tar x --to-stdout overlays.yaml | yq '.overlays | unique_by(.image) | .[] | .image + "@" + .digest') \
 	  $(OVERLAYS_IMAGE_REF)@$$(crane digest $(OVERLAYS_IMAGE_REF))
 
@@ -176,4 +181,3 @@ release-notes: $(ARTIFACTS)
 conformance:
 	@docker pull $(CONFORMANCE_IMAGE)
 	@docker run --rm -it -v $(PWD):/src -w /src $(CONFORMANCE_IMAGE) enforce
-
