@@ -20,6 +20,8 @@ spec:
       toplevel: true
     - name: overlays
       toplevel: true
+    - name: $(ARTIFACTS)/image-signer
+      toplevel: true
     - name: sign-images
       toplevel: true
 ---
@@ -42,16 +44,29 @@ spec:
       - internal/overlays/overlays-generated.yaml
 ---
 kind: custom.Step
-name: sign-images
+name: $(ARTIFACTS)/image-signer
 spec:
   makefile:
     enabled: true
     phony: true
     variables:
-      - name: IMAGE_SIGNER_IMAGE
-        defaultValue: ghcr.io/siderolabs/image-signer:latest
+      - name: IMAGE_SIGNER_RELEASE
+        defaultValue: v0.1.1
     script:
       - |
-        @docker run --pull=always --rm --net=host $(IMAGE_SIGNER_IMAGE) sign \
+        @curl -sSL https://github.com/siderolabs/go-tools/releases/download/$(IMAGE_SIGNER_RELEASE)/image-signer-$(OPERATING_SYSTEM)-$(GOARCH) -o $(ARTIFACTS)/image-signer
+        @chmod +x $(ARTIFACTS)/image-signer
+---
+kind: custom.Step
+name: sign-images
+spec:
+  makefile:
+    enabled: true
+    phony: true
+    depends:
+      - $(ARTIFACTS)/image-signer
+    script:
+      - |
+        @$(ARTIFACTS)/image-signer sign \
           $(shell crane export $(OVERLAYS_IMAGE_REF) | tar x --to-stdout overlays.yaml | yq '.overlays | unique_by(.image) | .[] | .image + "@" + .digest') \
           $(OVERLAYS_IMAGE_REF)@$$(crane digest $(OVERLAYS_IMAGE_REF))
