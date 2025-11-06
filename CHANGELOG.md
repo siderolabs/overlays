@@ -1,3 +1,30 @@
+## [overlays 1.11.5](https://github.com/siderolabs/overlays/releases/tag/v1.11.5) (2025-11-06)
+
+Welcome to the v1.11.5 release of overlays!
+
+
+
+Please try out the release binaries and report any issues at
+https://github.com/siderolabs/overlays/issues.
+
+### Contributors
+
+* Noel Georgi
+
+### Changes
+<details><summary>1 commit</summary>
+<p>
+
+* [`c06d811`](https://github.com/siderolabs/overlays/commit/c06d811c469f46c8246ee30666db241cd87369a6) fix: image-signer commands
+</p>
+</details>
+
+### Dependency Changes
+
+This release has no dependency changes
+
+Previous release can be found at [v1.11.4](https://github.com/siderolabs/overlays/releases/tag/v1.11.4)
+
 ## [overlays 1.11.4](https://github.com/siderolabs/overlays/releases/tag/v1.11.4) (2025-11-05)
 
 Welcome to the v1.11.4 release of overlays!
