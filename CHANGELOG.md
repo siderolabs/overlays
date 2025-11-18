@@ -1,3 +1,30 @@
+## [overlays 1.10.8](https://github.com/siderolabs/overlays/releases/tag/v1.10.8) (2025-11-18)
+
+Welcome to the v1.10.8 release of overlays!
+
+
+
+Please try out the release binaries and report any issues at
+https://github.com/siderolabs/overlays/issues.
+
+### Contributors
+
+* Noel Georgi
+
+### Changes
+<details><summary>1 commit</summary>
+<p>
+
+* [`6887662`](https://github.com/siderolabs/overlays/commit/6887662657b868eacaebe2ebfc45c4b87d60d655) feat: backports for 1.10
+</p>
+</details>
+
+### Dependency Changes
+
+This release has no dependency changes
+
+Previous release can be found at [v1.10.7](https://github.com/siderolabs/overlays/releases/tag/v1.10.7)
+
 ## [overlays 1.10.7](https://github.com/siderolabs/overlays/releases/tag/v1.10.7) (2025-08-26)
 
 Welcome to the v1.10.7 release of overlays!
