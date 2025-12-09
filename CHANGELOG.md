@@ -1,3 +1,48 @@
+## [overlays 1.12.0-rc.0](https://github.com/siderolabs/overlays/releases/tag/v1.12.0-rc.0) (2025-12-09)
+
+Welcome to the v1.12.0-rc.0 release of overlays!  
+*This is a pre-release of overlays*
+
+
+
+Please try out the release binaries and report any issues at
+https://github.com/siderolabs/overlays/issues.
+
+### Contributors
+
+* Noel Georgi
+* Andrey Smirnov
+* Mateusz Urbanek
+
+### Changes
+<details><summary>9 commits</summary>
+<p>
+
+* [`e41516d`](https://github.com/siderolabs/overlays/commit/e41516d5993e93ad2d03e34cc53185ef14f063f2) release(v1.12.0-beta.1): prepare release
+* [`0ed2f46`](https://github.com/siderolabs/overlays/commit/0ed2f463d60b7efc3fd3f89017bec742a3893a56) release(v1.12.0-beta.0): prepare release
+* [`b1e6283`](https://github.com/siderolabs/overlays/commit/b1e6283faf3854284ee7b439b9e6918ec47e5591) feat: pull in new overlays
+* [`9e895dc`](https://github.com/siderolabs/overlays/commit/9e895dcb3cd379a93549056dd1532ace0d26f4ff) fix: image-signer commands
+* [`772ed88`](https://github.com/siderolabs/overlays/commit/772ed88c564bfce2061336be2e96f6b2171d41ef) release(v1.12.0-alpha.2): prepare release
+* [`ce6ae25`](https://github.com/siderolabs/overlays/commit/ce6ae25e6a9e2fe3a17471c647a3c3660575bf0f) feat: use `image-signer`
+* [`051b8c1`](https://github.com/siderolabs/overlays/commit/051b8c13069038f03f832049cefe50cb7fd72e7f) release(v1.12.0-alpha.1): prepare release
+* [`a58cc39`](https://github.com/siderolabs/overlays/commit/a58cc3981a05c2f632530e70d33a9e1987310bbb) feat: add new rockchip sbcs
+* [`abe467b`](https://github.com/siderolabs/overlays/commit/abe467bbc530575d625a27d74c6c5bb0de362b92) release(v1.12.0-alpha.0): prepare release
+</p>
+</details>
+
+### Changes since v1.12.0-beta.1
+<details><summary>0 commit</summary>
+<p>
+
+</p>
+</details>
+
+### Dependency Changes
+
+This release has no dependency changes
+
+Previous release can be found at [v1.11.0](https://github.com/siderolabs/overlays/releases/tag/v1.11.0)
+
 ## [overlays 1.12.0-beta.1](https://github.com/siderolabs/overlays/releases/tag/v1.12.0-beta.1) (2025-12-01)
 
 Welcome to the v1.12.0-beta.1 release of overlays!  
