@@ -6,7 +6,7 @@ github_repo = "siderolabs/overlays"
 match_deps = "^github.com/(siderolabs/[a-zA-Z0-9-]+)$"
 
 previous = "v1.11.0"
-pre_release = true
+pre_release = false
 
 [notes]
     [rockchip]
