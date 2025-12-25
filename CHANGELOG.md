@@ -1,3 +1,31 @@
+## [overlays 1.13.0-alpha.0](https://github.com/siderolabs/overlays/releases/tag/v1.13.0-alpha.0) (2025-12-25)
+
+Welcome to the v1.13.0-alpha.0 release of overlays!  
+*This is a pre-release of overlays*
+
+
+
+Please try out the release binaries and report any issues at
+https://github.com/siderolabs/overlays/issues.
+
+### Contributors
+
+* Mateusz Urbanek
+
+### Changes
+<details><summary>1 commit</summary>
+<p>
+
+* [`44086a7`](https://github.com/siderolabs/overlays/commit/44086a7b25faf1eb72835bbc5cff9da9cfc725d6) chore: update sbc-raspberrypi overlay
+</p>
+</details>
+
+### Dependency Changes
+
+This release has no dependency changes
+
+Previous release can be found at [v1.12.0](https://github.com/siderolabs/overlays/releases/tag/v1.12.0)
+
 ## [overlays 1.12.0-alpha.2](https://github.com/siderolabs/overlays/releases/tag/v1.12.0-alpha.2) (2025-10-27)
 
 Welcome to the v1.12.0-alpha.2 release of overlays!  
