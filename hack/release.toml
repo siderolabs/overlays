@@ -8,3 +8,10 @@ match_deps = "^github.com/(siderolabs/[a-zA-Z0-9-]+)$"
 previous = "v1.12.0"
 pre_release = true
 
+
+[notes]
+    [notes.rpi5]
+        title = "Raspberry Pi 5 Support"
+        description = """
+Added support for Raspberry Pi5 support (via sbc-raspberrypi:v0.1.8).
+"""

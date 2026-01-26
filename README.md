@@ -32,6 +32,7 @@ The list of available overlays can be found in the [Overlays Catalog](#overlays-
 | Overlay Name           | Board                           | Repository                                                       |
 | ---------------------- | ------------------------------- | ---------------------------------------------------------------- |
 | rpi_generic            | Raspberry Pi 4/Compute Module 4 | [sbc-raspberrypi](https://github.com/siderolabs/sbc-raspberrypi) |
+| rpi5                   | Raspberry Pi 5                  | [sbc-raspberrypi](https://github.com/siderolabs/sbc-raspberrypi) |
 | revpi_generic          | Revolution Pi                   | [sbc-raspberrypi](https://github.com/siderolabs/sbc-raspberrypi) |
 | nanopi-r4s             | NanoPi R4S                      | [sbc-rockchip](https://github.com/siderolabs/sbc-rockchip)       |
 | nanopi-r5s             | NanoPi R5S                      | [sbc-rockchip](https://github.com/siderolabs/sbc-rockchip)       |
