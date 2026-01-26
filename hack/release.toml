@@ -9,3 +9,8 @@ previous = "v1.12.1"
 pre_release = false
 
 [notes]
+    [notes.rpi5]
+        title = "Raspberry Pi 5 Support"
+        description = """
+Added support for Raspberry Pi5 support (via sbc-raspberrypi:v0.1.8).
+"""
