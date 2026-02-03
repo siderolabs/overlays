@@ -1,3 +1,52 @@
+## [overlays 1.13.0-alpha.1](https://github.com/siderolabs/overlays/releases/tag/v1.13.0-alpha.1) (2026-02-03)
+
+Welcome to the v1.13.0-alpha.1 release of overlays!  
+*This is a pre-release of overlays*
+
+
+
+Please try out the release binaries and report any issues at
+https://github.com/siderolabs/overlays/issues.
+
+### Raspberry Pi 5 Support
+
+Added support for Raspberry Pi5 support (via sbc-raspberrypi:v0.1.8).
+
+
+### Contributors
+
+* Andrey Smirnov
+* Noel Georgi
+* Mateusz Urbanek
+
+### Changes
+<details><summary>5 commits</summary>
+<p>
+
+* [`8503702`](https://github.com/siderolabs/overlays/commit/8503702ec2294b710fa6cfc243a91404707b61b3) chore: update image signer
+* [`5711094`](https://github.com/siderolabs/overlays/commit/5711094b9926e79dd6b0b666f104f00ddfa58c60) feat: add new rockchip SBC's
+* [`d35c7a2`](https://github.com/siderolabs/overlays/commit/d35c7a2b05fad87c620bb2bdf5e8379c85f6db6e) feat: add Raspberry Pi 5 support
+* [`7d06e10`](https://github.com/siderolabs/overlays/commit/7d06e10be7bba6784dabf2cdc65d942acb0f5f50) release(v1.13.0-alpha.0): prepare release
+* [`44086a7`](https://github.com/siderolabs/overlays/commit/44086a7b25faf1eb72835bbc5cff9da9cfc725d6) chore: update sbc-raspberrypi overlay
+</p>
+</details>
+
+### Changes since v1.13.0-alpha.0
+<details><summary>3 commits</summary>
+<p>
+
+* [`8503702`](https://github.com/siderolabs/overlays/commit/8503702ec2294b710fa6cfc243a91404707b61b3) chore: update image signer
+* [`5711094`](https://github.com/siderolabs/overlays/commit/5711094b9926e79dd6b0b666f104f00ddfa58c60) feat: add new rockchip SBC's
+* [`d35c7a2`](https://github.com/siderolabs/overlays/commit/d35c7a2b05fad87c620bb2bdf5e8379c85f6db6e) feat: add Raspberry Pi 5 support
+</p>
+</details>
+
+### Dependency Changes
+
+This release has no dependency changes
+
+Previous release can be found at [v1.12.0](https://github.com/siderolabs/overlays/releases/tag/v1.12.0)
+
 ## [overlays 1.13.0-alpha.0](https://github.com/siderolabs/overlays/releases/tag/v1.13.0-alpha.0) (2025-12-25)
 
 Welcome to the v1.13.0-alpha.0 release of overlays!  
