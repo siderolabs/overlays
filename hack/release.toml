@@ -15,3 +15,12 @@ pre_release = true
         description = """
 Added support for Raspberry Pi5 support (via sbc-raspberrypi:v0.1.8).
 """
+
+    [rockchip]
+        title = "Rockchip SBC's"
+	description = """\
+New RockChip SBC's have been added:
+
+* friendlyelec-cm3588-nas
+* rock5b-plus
+"""
