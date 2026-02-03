@@ -1,6 +1,6 @@
 # THIS FILE WAS AUTOMATICALLY GENERATED, PLEASE DO NOT EDIT.
 #
-# Generated on 2026-01-26T14:55:29Z by kres f189649.
+# Generated on 2026-02-03T08:07:33Z by kres dc032d7.
 
 # common variables
 
@@ -48,7 +48,7 @@ COMMON_ARGS += $(BUILD_ARGS)
 # extra variables
 
 OVERLAYS_IMAGE_REF ?= $(REGISTRY_AND_USERNAME)/overlays:$(TAG)
-IMAGE_SIGNER_RELEASE ?= v0.1.1
+IMAGE_SIGNER_RELEASE ?= v0.2.0
 
 # targets defines all the available targets
 
