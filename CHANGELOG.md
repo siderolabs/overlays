@@ -1,3 +1,38 @@
+## [overlays 1.12.3](https://github.com/siderolabs/overlays/releases/tag/v1.12.3) (2026-02-06)
+
+Welcome to the v1.12.3 release of overlays!
+
+
+
+Please try out the release binaries and report any issues at
+https://github.com/siderolabs/overlays/issues.
+
+### Raspberry Pi 5 Support
+
+Added support for Raspberry Pi5 support (via sbc-raspberrypi:v0.1.8).
+
+
+### Contributors
+
+* Andrey Smirnov
+* Noel Georgi
+
+### Changes
+<details><summary>3 commits</summary>
+<p>
+
+* [`9b8d7fc`](https://github.com/siderolabs/overlays/commit/9b8d7fc892c7b2302618b4adc9a80d41f3ae9e4c) fix: typo with rpi_5 profile name
+* [`27c2294`](https://github.com/siderolabs/overlays/commit/27c22942bf8ec40c7e638a2aebae3c84ab69431b) feat: add new rockchip SBC's
+* [`6610143`](https://github.com/siderolabs/overlays/commit/6610143a8a966576cba5acc90e00ebf64b449643) feat: add Raspberry Pi 5 support
+</p>
+</details>
+
+### Dependency Changes
+
+This release has no dependency changes
+
+Previous release can be found at [v1.12.2](https://github.com/siderolabs/overlays/releases/tag/v1.12.2)
+
 ## [overlays 1.12.2](https://github.com/siderolabs/overlays/releases/tag/v1.12.2) (2026-01-21)
 
 Welcome to the v1.12.2 release of overlays!
