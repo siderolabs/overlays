@@ -1,3 +1,30 @@
+## [overlays 1.12.5](https://github.com/siderolabs/overlays/releases/tag/v1.12.5) (2026-03-06)
+
+Welcome to the v1.12.5 release of overlays!
+
+
+
+Please try out the release binaries and report any issues at
+https://github.com/siderolabs/overlays/issues.
+
+### Contributors
+
+* Noel Georgi
+
+### Changes
+<details><summary>1 commit</summary>
+<p>
+
+* [`166977f`](https://github.com/siderolabs/overlays/commit/166977faa2eec26af786795b940b1356eff1d232) feat: update overlays
+</p>
+</details>
+
+### Dependency Changes
+
+This release has no dependency changes
+
+Previous release can be found at [v1.12.4](https://github.com/siderolabs/overlays/releases/tag/v1.12.4)
+
 ## [overlays 1.12.4](https://github.com/siderolabs/overlays/releases/tag/v1.12.4) (2026-02-12)
 
 Welcome to the v1.12.4 release of overlays!
