@@ -1,3 +1,55 @@
+## [overlays 1.13.0-beta.1](https://github.com/siderolabs/overlays/releases/tag/v1.13.0-beta.1) (2026-03-27)
+
+Welcome to the v1.13.0-beta.1 release of overlays!  
+*This is a pre-release of overlays*
+
+
+
+Please try out the release binaries and report any issues at
+https://github.com/siderolabs/overlays/issues.
+
+### Raspberry Pi 5 Support
+
+Added support for Raspberry Pi5 support (via sbc-raspberrypi:v0.1.8).
+
+
+### Contributors
+
+* Noel Georgi
+* Andrey Smirnov
+* Mateusz Urbanek
+
+### Changes
+<details><summary>11 commits</summary>
+<p>
+
+* [`645154d`](https://github.com/siderolabs/overlays/commit/645154d1d2d87bea58a7cbb7e57aa2a2fe5684aa) release(v1.13.0-beta.0): prepare release
+* [`edb6836`](https://github.com/siderolabs/overlays/commit/edb6836dddc19f48aaa8a0237383f778a9d614aa) feat: bump overlays
+* [`d67e073`](https://github.com/siderolabs/overlays/commit/d67e07325e587e4cbedfbbc04ab7c77055731145) release(v1.13.0-alpha.2): prepare release
+* [`675ef6e`](https://github.com/siderolabs/overlays/commit/675ef6eb64998727f70ee7267db180e2f3810109) feat: bump overlays
+* [`3d66698`](https://github.com/siderolabs/overlays/commit/3d666988a0f5a12408edffbae41f00f35132ba32) fix: typo with rpi_5 profile name
+* [`0f4366d`](https://github.com/siderolabs/overlays/commit/0f4366ddaf622044215efddcb4e79e76d6155c85) release(v1.13.0-alpha.1): prepare release
+* [`8503702`](https://github.com/siderolabs/overlays/commit/8503702ec2294b710fa6cfc243a91404707b61b3) chore: update image signer
+* [`5711094`](https://github.com/siderolabs/overlays/commit/5711094b9926e79dd6b0b666f104f00ddfa58c60) feat: add new rockchip SBC's
+* [`d35c7a2`](https://github.com/siderolabs/overlays/commit/d35c7a2b05fad87c620bb2bdf5e8379c85f6db6e) feat: add Raspberry Pi 5 support
+* [`7d06e10`](https://github.com/siderolabs/overlays/commit/7d06e10be7bba6784dabf2cdc65d942acb0f5f50) release(v1.13.0-alpha.0): prepare release
+* [`44086a7`](https://github.com/siderolabs/overlays/commit/44086a7b25faf1eb72835bbc5cff9da9cfc725d6) chore: update sbc-raspberrypi overlay
+</p>
+</details>
+
+### Changes since v1.13.0-beta.0
+<details><summary>0 commit</summary>
+<p>
+
+</p>
+</details>
+
+### Dependency Changes
+
+This release has no dependency changes
+
+Previous release can be found at [v1.12.0](https://github.com/siderolabs/overlays/releases/tag/v1.12.0)
+
 ## [overlays 1.13.0-beta.0](https://github.com/siderolabs/overlays/releases/tag/v1.13.0-beta.0) (2026-03-17)
 
 Welcome to the v1.13.0-beta.0 release of overlays!  
