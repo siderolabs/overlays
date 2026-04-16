@@ -13,7 +13,7 @@ pre_release = true
     [notes.rpi5]
         title = "Raspberry Pi 5 Support"
         description = """
-Added support for Raspberry Pi5 support (via sbc-raspberrypi:v0.1.8).
+Added support for Raspberry Pi 5 (via sbc-raspberrypi:v0.1.8).
 """
 
     [rockchip]
