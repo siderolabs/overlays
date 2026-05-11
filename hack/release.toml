@@ -5,22 +5,8 @@ project_name = "overlays"
 github_repo = "siderolabs/overlays"
 match_deps = "^github.com/(siderolabs/[a-zA-Z0-9-]+)$"
 
-previous = "v1.12.0"
+previous = "v1.13.0"
 pre_release = false
 
 
 [notes]
-    [notes.rpi5]
-        title = "Raspberry Pi 5 Support"
-        description = """
-Added support for Raspberry Pi 5 (via sbc-raspberrypi:v0.1.8).
-"""
-
-    [rockchip]
-        title = "Rockchip SBC's"
-	description = """\
-New RockChip SBC's have been added:
-
-* friendlyelec-cm3588-nas
-* rock5b-plus
-"""
