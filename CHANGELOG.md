@@ -1,3 +1,38 @@
+## [overlays 1.14.0-alpha.1](https://github.com/siderolabs/overlays/releases/tag/v1.14.0-alpha.1) (2026-05-28)
+
+Welcome to the v1.14.0-alpha.1 release of overlays!  
+*This is a pre-release of overlays*
+
+
+
+Please try out the release binaries and report any issues at
+https://github.com/siderolabs/overlays/issues.
+
+### Contributors
+
+* Mateusz Urbanek
+
+### Changes
+<details><summary>1 commit</summary>
+<p>
+
+* [`ee045df`](https://github.com/siderolabs/overlays/commit/ee045dfbda76b5243eb1ed2f7d623293800f4359) release(v1.14.0-alpha.0): prepare release
+</p>
+</details>
+
+### Changes since v1.14.0-alpha.0
+<details><summary>0 commit</summary>
+<p>
+
+</p>
+</details>
+
+### Dependency Changes
+
+This release has no dependency changes
+
+Previous release can be found at [v1.13.0](https://github.com/siderolabs/overlays/releases/tag/v1.13.0)
+
 ## [overlays 1.14.0-alpha.0](https://github.com/siderolabs/overlays/releases/tag/v1.14.0-alpha.0) (2026-04-29)
 
 Welcome to the v1.14.0-alpha.0 release of overlays!  
