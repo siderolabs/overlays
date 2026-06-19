@@ -49,6 +49,8 @@ spec:
   makefile:
     enabled: true
     phony: true
+    depends:
+      - $(ARTIFACTS)
     variables:
       - name: IMAGE_SIGNER_RELEASE
         defaultValue: v0.2.0
