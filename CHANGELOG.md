@@ -1,3 +1,28 @@
+## [overlays 1.13.7](https://github.com/siderolabs/overlays/releases/tag/v1.13.7) (2026-07-21)
+
+Welcome to the v1.13.7 release of overlays!
+
+
+
+Please try out the release binaries and report any issues at
+https://github.com/siderolabs/overlays/issues.
+
+### Contributors
+
+
+### Changes
+<details><summary>0 commit</summary>
+<p>
+
+</p>
+</details>
+
+### Dependency Changes
+
+This release has no dependency changes
+
+Previous release can be found at [v1.13.6](https://github.com/siderolabs/overlays/releases/tag/v1.13.6)
+
 
 ## [overlays 1.13.5](https://github.com/siderolabs/overlays/releases/tag/v1.13.5) (2026-06-22)
 
