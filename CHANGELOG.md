@@ -1,3 +1,29 @@
+## [overlays 1.15.0-alpha.0](https://github.com/siderolabs/overlays/releases/tag/v1.15.0-alpha.0) (2026-09-07)
+
+Welcome to the v1.15.0-alpha.0 release of overlays!  
+*This is a pre-release of overlays*
+
+
+
+Please try out the release binaries and report any issues at
+https://github.com/siderolabs/overlays/issues.
+
+### Contributors
+
+
+### Changes
+<details><summary>0 commit</summary>
+<p>
+
+</p>
+</details>
+
+### Dependency Changes
+
+This release has no dependency changes
+
+Previous release can be found at [v1.14.0](https://github.com/siderolabs/overlays/releases/tag/v1.14.0)
+
 ## [overlays 1.14.0-beta.1](https://github.com/siderolabs/overlays/releases/tag/v1.14.0-beta.1) (2026-07-31)
 
 Welcome to the v1.14.0-beta.1 release of overlays!  
