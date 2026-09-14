@@ -8,11 +8,11 @@ overlays:
   - name: jetson_nano
     image: ghcr.io/siderolabs/sbc-jetson:v0.1.5
   - name: revpi_generic
-    image: ghcr.io/siderolabs/sbc-raspberrypi:v0.2.1
+    image: ghcr.io/siderolabs/sbc-raspberrypi:v0.2.2
   - name: rpi_generic
-    image: ghcr.io/siderolabs/sbc-raspberrypi:v0.2.1
+    image: ghcr.io/siderolabs/sbc-raspberrypi:v0.2.2
   - name: rpi_5
-    image: ghcr.io/siderolabs/sbc-raspberrypi:v0.2.1
+    image: ghcr.io/siderolabs/sbc-raspberrypi:v0.2.2
   - name: helios64
     image: ghcr.io/siderolabs/sbc-rockchip:v0.2.1
   - name: nanopi-r4s
