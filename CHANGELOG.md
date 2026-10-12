@@ -1,3 +1,48 @@
+## [overlays 1.15.0-alpha.1](https://github.com/siderolabs/overlays/releases/tag/v1.15.0-alpha.1) (2026-10-12)
+
+Welcome to the v1.15.0-alpha.1 release of overlays!  
+*This is a pre-release of overlays*
+
+
+
+Please try out the release binaries and report any issues at
+https://github.com/siderolabs/overlays/issues.
+
+### Contributors
+
+* Maja Bojarska
+* Andrey Smirnov
+* Mateusz Urbanek
+
+### Changes
+<details><summary>5 commits</summary>
+<p>
+
+* [`45e766a`](https://github.com/siderolabs/overlays/commit/45e766a37993b2c32c45c5e39a31601016300f37) chore: run rekres
+* [`a9e5b1d`](https://github.com/siderolabs/overlays/commit/a9e5b1db8826657057a2d342a2aba352c678c7dd) feat: update SBC RaspberryPi to v0.2.2
+* [`1479a39`](https://github.com/siderolabs/overlays/commit/1479a39dabb937053deece158209445d192a2f0c) chore: rekres
+* [`4f5d145`](https://github.com/siderolabs/overlays/commit/4f5d145e007c17e9d809e306f55eef7451de49c5) chore: update bldr to 0.6.3
+* [`fc7cbd2`](https://github.com/siderolabs/overlays/commit/fc7cbd2a7a944bc302d24fe72f90db5c96fd68d9) release(v1.15.0-alpha.0): prepare release
+</p>
+</details>
+
+### Changes since v1.15.0-alpha.0
+<details><summary>4 commits</summary>
+<p>
+
+* [`45e766a`](https://github.com/siderolabs/overlays/commit/45e766a37993b2c32c45c5e39a31601016300f37) chore: run rekres
+* [`a9e5b1d`](https://github.com/siderolabs/overlays/commit/a9e5b1db8826657057a2d342a2aba352c678c7dd) feat: update SBC RaspberryPi to v0.2.2
+* [`1479a39`](https://github.com/siderolabs/overlays/commit/1479a39dabb937053deece158209445d192a2f0c) chore: rekres
+* [`4f5d145`](https://github.com/siderolabs/overlays/commit/4f5d145e007c17e9d809e306f55eef7451de49c5) chore: update bldr to 0.6.3
+</p>
+</details>
+
+### Dependency Changes
+
+This release has no dependency changes
+
+Previous release can be found at [v1.14.0](https://github.com/siderolabs/overlays/releases/tag/v1.14.0)
+
 ## [overlays 1.15.0-alpha.0](https://github.com/siderolabs/overlays/releases/tag/v1.15.0-alpha.0) (2026-09-07)
 
 Welcome to the v1.15.0-alpha.0 release of overlays!  
