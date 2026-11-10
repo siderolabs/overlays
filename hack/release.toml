@@ -14,5 +14,5 @@ pre_release = true
     [notes.linux73]
         title = "Linux 7.3"
         description = """
-Update all SBC repos to include Linux 7.3, and update all over dependencies including U-Boot to the latest version.
+Update all SBC repos to include Linux 7.3, and update all other dependencies including U-Boot to the latest version.
 """
