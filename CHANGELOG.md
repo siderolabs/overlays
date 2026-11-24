@@ -1,3 +1,37 @@
+## [overlays 1.14.7](https://github.com/siderolabs/overlays/releases/tag/v1.14.7) (2026-11-24)
+
+Welcome to the v1.14.7 release of overlays!
+
+
+
+Please try out the release binaries and report any issues at
+https://github.com/siderolabs/overlays/issues.
+
+### Contributors
+
+* Andrey Smirnov
+
+### Changes
+<details><summary>1 commit</summary>
+<p>
+
+* [`de54e1c`](https://github.com/siderolabs/overlays/commit/de54e1c762b169e1aeab47f64b913fa4b2f66682) release(v1.14.6): prepare release
+</p>
+</details>
+
+### Changes since v1.14.6
+<details><summary>0 commit</summary>
+<p>
+
+</p>
+</details>
+
+### Dependency Changes
+
+This release has no dependency changes
+
+Previous release can be found at [v1.14.5](https://github.com/siderolabs/overlays/releases/tag/v1.14.5)
+
 ## [overlays 1.14.6](https://github.com/siderolabs/overlays/releases/tag/v1.14.6) (2026-11-11)
 
 Welcome to the v1.14.6 release of overlays!
